@@ -22,7 +22,7 @@ class Login extends React.Component {
             .then(json => {
                 console.log(json.data.role)
                 if (json.data.role === 0) {
-                    this.props.history.push('/home')
+                    this.props.history.push('/dashboard')
                 }
                 else {
                     this.props.history.push('/login')

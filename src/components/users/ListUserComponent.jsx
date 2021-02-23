@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import UserService from '../../services/UserService'
+import { Link, withRouter } from 'react-router-dom'
 
 class ListUserComponent extends Component {
     constructor(props) {
@@ -80,4 +81,4 @@ class ListUserComponent extends Component {
     }
 }
 
-export default ListUserComponent
+export default withRouter(ListUserComponent);

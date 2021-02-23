@@ -8,9 +8,9 @@ import { routes } from '../src/routes/routes'
 class App extends Component {
   render() {
     return (
-      <div className="jumbotron">
-        <div className="container">
-          <div className="col-sm-8 col-sm-offset-2">
+      // <div className="jumbotron">
+      //   <div className="container">
+      //     <div className="col-sm-8 col-sm-offset-2">
             <Router>
               <Switch>
                 <Route exact path="/" component={Register} />
@@ -23,9 +23,9 @@ class App extends Component {
 
               </Switch>
             </Router>
-          </div>
-        </div>
-      </div>
+      //     </div>
+      //   </div>
+      // </div>
     );
   }
 }
